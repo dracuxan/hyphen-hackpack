@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <!-- Chart background -->
+  <rect width="400" height="200" fill="white" />
+  
+  <!-- Grid lines -->
+  <g stroke="#ccc" stroke-width="0.5">
+    <line x1="50" y1="20" x2="50" y2="180" />
+    <line x1="50" y1="180" x2="380" y2="180" />
+    <line x1="50" y1="150" x2="380" y2="150" />
+    <line x1="50" y1="120" x2="380" y2="120" />
+    <line x1="50" y1="90" x2="380" y2="90" />
+    <line x1="50" y1="60" x2="380" y2="60" />
+    <line x1="50" y1="30" x2="380" y2="30" />
+  </g>
+  
+  <!-- X and Y axis labels -->
+  <g fill="#333" font-size="8" text-anchor="middle">
+    <text x="75" y="195">1</text>
+    <text x="100" y="195">2</text>
+    <text x="125" y="195">3</text>
+    <text x="150" y="195">4</text>
+    <text x="175" y="195">5</text>
+    <text x="200" y="195">6</text>
+    <text x="225" y="195">7</text>
+    <text x="250" y="195">8</text>
+    <text x="275" y="195">9</text>
+    <text x="300" y="195">10</text>
+    <text x="325" y="195">11</text>
+    <text x="350" y="195">12</text>
+    
+    <text x="40" y="180" text-anchor="end">0</text>
+    <text x="40" y="150" text-anchor="end">20</text>
+    <text x="40" y="120" text-anchor="end">40</text>
+    <text x="40" y="90" text-anchor="end">60</text>
+    <text x="40" y="60" text-anchor="end">80</text>
+    <text x="40" y="30" text-anchor="end">100</text>
+  </g>
+  
+  <!-- Chart title -->
+  <text x="20" y="15" font-size="12" fill="#333" text-anchor="start">2. Time-based Trend Analysis</text>
+  
+  <!-- Areas for Campaign Trends -->
+  <g>
+    <!-- Campaign 1 -->
+    <path 
+      d="M75,150 L75,170 L100,160 L125,140 L150,120 L175,110 L200,100 L225,85 L250,80 L275,85 L300,90 L325,95 L350,105 L350,180 L325,180 L300,180 L275,180 L250,180 L225,180 L200,180 L175,180 L150,180 L125,180 L100,180 L75,180 Z" 
+      fill="#2196F3" 
+      fill-opacity="0.3"
+    />
+    <polyline 
+      points="75,170 100,160 125,140 150,120 175,110 200,100 225,85 250,80 275,85 300,90 325,95 350,105" 
+      fill="none" 
+      stroke="#2196F3" 
+      stroke-width="2"
+    />
+    
+    <!-- Campaign 2 -->
+    <path 
+      d="M75,160 L75,175 L100,170 L125,150 L150,130 L175,125 L200,105 L225,75 L250,65 L275,70 L300,75 L325,80 L350,85 L350,180 L325,180 L300,180 L275,180 L250,180 L225,180 L200,180 L175,180 L150,180 L125,180 L100,180 L75,180 Z" 
+      fill="#FF9800" 
+      fill-opacity="0.3"
+    />
+    <polyline 
+      points="75,175 100,170 125,150 150,130 175,125 200,105 225,75 250,65 275,70 300,75 325,80 350,85" 
+      fill="none" 
+      stroke="#FF9800" 
+      stroke-width="2"
+    />
+    
+    <!-- Viral Event Markers -->
+    <circle cx="225" r="5" cy="75" fill="#FF5722" stroke="#FFF" stroke-width="1" />
+    <line x1="225" y1="75" x2="225" y2="25" stroke="#FF5722" stroke-width="1" stroke-dasharray="2,2" />
+    <text x="225" y="20" font-size="8" fill="#FF5722" text-anchor="middle">Viral Peak</text>
+  </g>
+  
+  <!-- Legend -->
+  <g>
+    <rect x="260" y="25" width="10" height="2" fill="#2196F3" />
+    <text x="275" y="28" font-size="8" fill="#333">Campaign 1: #SummerSale</text>
+    
+    <rect x="260" y="40" width="10" height="2" fill="#FF9800" />
+    <text x="275" y="43" font-size="8" fill="#333">Campaign 2: #NewProduct</text>
+  </g>
+</svg>

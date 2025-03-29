@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <!-- Chart background -->
+  <rect width="400" height="200" fill="white" />
+  
+  <!-- Chart title -->
+  <text x="20" y="15" font-size="12" fill="#333" text-anchor="start">3. Trend Evolution Analysis</text>
+  
+  <!-- Axis labels -->
+  <text x="50" y="180" font-size="8" fill="#333" text-anchor="middle">Awareness</text>
+  <text x="125" y="180" font-size="8" fill="#333" text-anchor="middle">Interest</text>
+  <text x="200" y="180" font-size="8" fill="#333" text-anchor="middle">Consideration</text>
+  <text x="275" y="180" font-size="8" fill="#333" text-anchor="middle">Purchase</text>
+  <text x="350" y="180" font-size="8" fill="#333" text-anchor="middle">Loyalty</text>
+  
+  <!-- Horizontal axis -->
+  <line x1="50" y1="150" x2="350" y2="150" stroke="#333" stroke-width="1" />
+  
+  <!-- Horizontal axis ticks -->
+  <line x1="50" y1="150" x2="50" y2="155" stroke="#333" stroke-width="1" />
+  <line x1="125" y1="150" x2="125" y2="155" stroke="#333" stroke-width="1" />
+  <line x1="200" y1="150" x2="200" y2="155" stroke="#333" stroke-width="1" />
+  <line x1="275" y1="150" x2="275" y2="155" stroke="#333" stroke-width="1" />
+  <line x1="350" y1="150" x2="350" y2="155" stroke="#333" stroke-width="1" />
+  
+  <!-- Stage connectors -->
+  <line x1="50" y1="150" x2="125" y2="150" stroke="#ccc" stroke-width="1" stroke-dasharray="5,3" />
+  <line x1="125" y1="150" x2="200" y2="150" stroke="#ccc" stroke-width="1" stroke-dasharray="5,3" />
+  <line x1="200" y1="150" x2="275" y2="150" stroke="#ccc" stroke-width="1" stroke-dasharray="5,3" />
+  <line x1="275" y1="150" x2="350" y2="150" stroke="#ccc" stroke-width="1" stroke-dasharray="5,3" />
+  
+  <!-- Campaign 1 Flow -->
+  <path 
+    d="M50,120 C70,115 90,110 125,105 C160,100 180,95 200,80 C220,65 240,60 275,65 C310,70 330,75 350,80" 
+    fill="none" 
+    stroke="#3F51B5" 
+    stroke-width="3"
+  />
+  
+  <!-- Campaign 2 Flow -->
+  <path 
+    d="M50,130 C70,125 90,120 125,125 C160,130 180,110 200,100 C220,90 240,85 275,85 C310,85 330,90 350,100" 
+    fill="none" 
+    stroke="#009688" 
+    stroke-width="3"
+  />
+  
+  <!-- Campaign 3 Flow -->
+  <path 
+    d="M50,100 C70,105 90,110 125,115 C160,120 180,125 200,120 C220,115 240,110 275,105 C310,100 330,95 350,70" 
+    fill="none" 
+    stroke="#FF5722" 
+    stroke-width="3"
+  />
+  
+  <!-- Data points - Campaign 1 -->
+  <circle cx="50" cy="120" r="5" fill="#3F51B5" />
+  <circle cx="125" cy="105" r="5" fill="#3F51B5" />
+  <circle cx="200" cy="80" r="5" fill="#3F51B5" />
+  <circle cx="275" cy="65" r="5" fill="#3F51B5" />
+  <circle cx="350" cy="80" r="5" fill="#3F51B5" />
+  
+  <!-- Data points - Campaign 2 -->
+  <circle cx="50" cy="130" r="5" fill="#009688" />
+  <circle cx="125" cy="125" r="5" fill="#009688" />
+  <circle cx="200" cy="100" r="5" fill="#009688" />
+  <circle cx="275" cy="85" r="5" fill="#009688" />
+  <circle cx="350" cy="100" r="5" fill="#009688" />
+  
+  <!-- Data points - Campaign 3 -->
+  <circle cx="50" cy="100" r="5" fill="#FF5722" />
+  <circle cx="125" cy="115" r="5" fill="#FF5722" />
+  <circle cx="200" cy="120" r="5" fill="#FF5722" />
+  <circle cx="275" cy="105" r="5" fill="#FF5722" />
+  <circle cx="350" cy="70" r="5" fill="#FF5722" />
+  
+  <!-- Legend -->
+  <rect x="50" y="30" width="10" height="3" fill="#3F51B5" />
+  <text x="65" y="33" font-size="8" fill="#333">Instagram Campaign</text>
+  
+  <rect x="50" y="45" width="10" height="3" fill="#009688" />
+  <text x="65" y="48" font-size="8" fill="#333">Facebook Campaign</text>
+  
+  <rect x="50" y="60" width="10" height="3" fill="#FF5722" />
+  <text x="65" y="63" font-size="8" fill="#333">TikTok Campaign</text>
+  
+  <!-- Success indicators -->
+  <text x="200" y="30" font-size="8" fill="#333">Conversion Rates:</text>
+  <text x="200" y="45" font-size="8" fill="#3F51B5">Instagram: 7.8%</text>
+  <text x="200" y="60" font-size="8" fill="#009688">Facebook: 5.2%</text>
+  <text x="200" y="75" font-size="8" fill="#FF5722">TikTok: 12.3%</text>
+</svg>

@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <!-- Chart background -->
+  <rect width="400" height="200" fill="white" />
+  
+  <!-- Grid lines -->
+  <g stroke="#ccc" stroke-width="0.5">
+    <line x1="50" y1="20" x2="50" y2="180" />
+    <line x1="50" y1="180" x2="380" y2="180" />
+    <line x1="50" y1="150" x2="380" y2="150" />
+    <line x1="50" y1="120" x2="380" y2="120" />
+    <line x1="50" y1="90" x2="380" y2="90" />
+    <line x1="50" y1="60" x2="380" y2="60" />
+  </g>
+  
+  <!-- Chart title -->
+  <text x="20" y="15" font-size="12" fill="#333" text-anchor="start">2. Inter-State Demographics</text>
+  
+  <!-- X-axis labels (Districts) -->
+  <g fill="#333" font-size="7" text-anchor="middle">
+    <text x="65" y="195" transform="rotate(45, 65, 195)">Mumbai</text>
+    <text x="85" y="195" transform="rotate(45, 85, 195)">Pune</text>
+    <text x="105" y="195" transform="rotate(45, 105, 195)">Nagpur</text>
+    <text x="125" y="195" transform="rotate(45, 125, 195)">Thane</text>
+    <text x="145" y="195" transform="rotate(45, 145, 195)">Nashik</text>
+    <text x="165" y="195" transform="rotate(45, 165, 195)">Aurangabad</text>
+    <text x="185" y="195" transform="rotate(45, 185, 195)">Solapur</text>
+    <text x="205" y="195" transform="rotate(45, 205, 195)">Amravati</text>
+    <text x="225" y="195" transform="rotate(45, 225, 195)">Kolhapur</text>
+    <text x="245" y="195" transform="rotate(45, 245, 195)">Sangli</text>
+    <text x="265" y="195" transform="rotate(45, 265, 195)">Jalgaon</text>
+    <text x="285" y="195" transform="rotate(45, 285, 195)">Satara</text>
+    <text x="305" y="195" transform="rotate(45, 305, 195)">Latur</text>
+    <text x="325" y="195" transform="rotate(45, 325, 195)">Akola</text>
+    <text x="345" y="195" transform="rotate(45, 345, 195)">Dhule</text>
+    <text x="365" y="195" transform="rotate(45, 365, 195)">Nanded</text>
+  </g>
+  
+  <!-- Y-axis labels -->
+  <g fill="#333" font-size="8" text-anchor="end">
+    <text x="45" y="180">0</text>
+    <text x="45" y="150">5</text>
+    <text x="45" y="120">10</text>
+    <text x="45" y="90">15</text>
+    <text x="45" y="60">20</text>
+    <text x="45" y="30">25</text>
+  </g>
+  
+  <!-- Bar chart data -->
+  <g>
+    <!-- Mumbai -->
+    <rect x="60" y="60" width="10" height="120" fill="#ccc" />
+    
+    <!-- Pune -->
+    <rect x="80" y="90" width="10" height="90" fill="#ccc" />
+    
+    <!-- Nagpur -->
+    <rect x="100" y="110" width="10" height="70" fill="#ccc" />
+    
+    <!-- Thane -->
+    <rect x="120" y="105" width="10" height="75" fill="#ccc" />
+    
+    <!-- Nashik -->
+    <rect x="140" y="125" width="10" height="55" fill="#ccc" />
+    
+    <!-- Aurangabad -->
+    <rect x="160" y="130" width="10" height="50" fill="#ccc" />
+    
+    <!-- Solapur -->
+    <rect x="180" y="135" width="10" height="45" fill="#ccc" />
+    
+    <!-- Amravati -->
+    <rect x="200" y="145" width="10" height="35" fill="#ccc" />
+    
+    <!-- Kolhapur -->
+    <rect x="220" y="140" width="10" height="40" fill="#E53935" />
+    
+    <!-- Sangli -->
+    <rect x="240" y="150" width="10" height="30" fill="#ccc" />
+    
+    <!-- Jalgaon -->
+    <rect x="260" y="155" width="10" height="25" fill="#ccc" />
+    
+    <!-- Satara -->
+    <rect x="280" y="160" width="10" height="20" fill="#ccc" />
+    
+    <!-- Latur -->
+    <rect x="300" y="165" width="10" height="15" fill="#ccc" />
+    
+    <!-- Akola -->
+    <rect x="320" y="160" width="10" height="20" fill="#ccc" />
+    
+    <!-- Dhule -->
+    <rect x="340" y="165" width="10" height="15" fill="#ccc" />
+    
+    <!-- Nanded -->
+    <rect x="360" y="160" width="10" height="20" fill="#ccc" />
+  </g>
+  
+  <!-- View More Link -->
+  <text x="370" y="195" font-size="8" fill="#E53935" text-anchor="end">View More...</text>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Base map outline -->
+  <path 
+    d="M20,290 C30,300 50,310 70,320 C90,330 110,335 130,340 C150,345 170,347 190,348 C210,349 230,348 250,346 C270,344 290,342 310,338 C330,334 350,330 370,325 C390,320 410,315 430,310 C450,305 470,300 490,295 C510,290 530,285 550,280 C570,275 590,270 610,265 C630,260 650,255 670,250 C690,245 710,240 730,235 C750,230 770,225 780,220 C790,215 790,210 780,205 C770,200 750,195 730,190 C710,185 690,180 670,175 C650,170 630,165 610,160 C590,155 570,150 550,145 C530,140 510,135 490,130 C470,125 450,120 430,115 C410,110 390,105 370,100 C350,95 330,90 310,85 C290,80 270,75 250,70 C230,65 210,60 190,55 C170,50 150,45 130,40 C110,35 90,30 70,25 C50,20 30,15 20,10 C10,5 10,0 20,5 C30,10 50,25 70,40 C90,55 110,70 130,85 C150,100 170,115 190,130 C210,145 230,160 250,175 C270,190 290,205 310,220 C330,235 350,250 370,265 C390,280 410,295 430,310 C450,325 470,340 490,355 C510,370 530,385 550,400 C570,415 590,430 610,445 C630,460 650,475 670,490 C690,505 710,520 730,535 C750,550 770,565 780,580 C790,595 790,590 780,585 C770,580 750,575 730,570 C710,565 690,560 670,555 C650,550 630,545 610,540 C590,535 570,530 550,525 C530,520 510,515 490,510 C470,505 450,500 430,495 C410,490 390,485 370,480 C350,475 330,470 310,465 C290,460 270,455 250,450 C230,445 210,440 190,435 C170,430 150,425 130,420 C110,415 90,410 70,405 C50,400 30,395 20,390 C10,385 10,380 20,375 C30,370 50,365 70,360 C90,355 110,350 130,345 C150,340 170,335 190,330 C210,325 230,320 250,315 C270,310 290,305 310,300 C330,295 350,290 370,285 C390,280 410,275 430,270 C450,265 470,260 490,255 C510,250 530,245 550,240 C570,235 590,230 610,225 C630,220 650,215 670,210 C690,205 710,200 730,195 C750,190 770,185 780,180 C790,175 790,170 780,165 C770,160 750,155 730,150 C710,145 690,140 670,135 C650,130 630,125 610,120 C590,115 570,110 550,105 C530,100 510,95 490,90 C470,85 450,80 430,75 C410,70 390,65 370,60 C350,55 330,50 310,45 C290,40 270,35 250,30 C230,25 210,20 190,15 C170,10 150,5 130,0"
+    fill="none"
+    stroke="#000"
+    stroke-width="1"
+  />
+
+  <!-- District regions with different fill colors -->
+  <path d="M100,100 L150,100 L150,150 L100,150 Z" fill="#B3E0F2" />
+  <path d="M150,100 L200,100 L200,150 L150,150 Z" fill="#83C5E3" />
+  <path d="M200,100 L250,100 L250,150 L200,150 Z" fill="#4AA9D4" />
+  <path d="M250,100 L300,100 L300,150 L250,150 Z" fill="#1E88C7" />
+  <path d="M300,100 L350,100 L350,150 L300,150 Z" fill="#0D47A1" />
+  <path d="M100,150 L150,150 L150,200 L100,200 Z" fill="#83C5E3" />
+  <path d="M150,150 L200,150 L200,200 L150,200 Z" fill="#B3E0F2" />
+  <path d="M200,150 L250,150 L250,200 L200,200 Z" fill="#4AA9D4" />
+  <path d="M250,150 L300,150 L300,200 L250,200 Z" fill="#0D47A1" />
+  <path d="M300,150 L350,150 L350,200 L300,200 Z" fill="#1E88C7" />
+  <path d="M100,200 L150,200 L150,250 L100,250 Z" fill="#0D47A1" />
+  <path d="M150,200 L200,200 L200,250 L150,250 Z" fill="#1E88C7" />
+  <path d="M200,200 L250,200 L250,250 L200,250 Z" fill="#B3E0F2" />
+  <path d="M250,200 L300,200 L300,250 L250,250 Z" fill="#4AA9D4" />
+  <path d="M300,200 L350,200 L350,250 L300,250 Z" fill="#83C5E3" />
+  <path d="M100,250 L150,250 L150,300 L100,300 Z" fill="#4AA9D4" />
+  <path d="M150,250 L200,250 L200,300 L150,300 Z" fill="#83C5E3" />
+  <path d="M200,250 L250,250 L250,300 L200,300 Z" fill="#1E88C7" />
+  <path d="M250,250 L300,250 L300,300 L250,300 Z" fill="#B3E0F2" />
+  <path d="M300,250 L350,250 L350,300 L300,300 Z" fill="#0D47A1" />
+
+  <!-- District labels -->
+  <text x="125" y="125" fill="#000" font-size="8" text-anchor="middle">Nagpur</text>
+  <text x="175" y="125" fill="#000" font-size="8" text-anchor="middle">Wardha</text>
+  <text x="225" y="125" fill="#000" font-size="8" text-anchor="middle">Amravati</text>
+  <text x="275" y="125" fill="#000" font-size="8" text-anchor="middle">Bhandara</text>
+  <text x="325" y="125" fill="#000" font-size="8" text-anchor="middle">Gondiya</text>
+  
+  <text x="125" y="175" fill="#000" font-size="8" text-anchor="middle">Yavatmal</text>
+  <text x="175" y="175" fill="#000" font-size="8" text-anchor="middle">Washim</text>
+  <text x="225" y="175" fill="#000" font-size="8" text-anchor="middle">Hingoli</text>
+  <text x="275" y="175" fill="#000" font-size="8" text-anchor="middle">Nanded</text>
+  <text x="325" y="175" fill="#000" font-size="8" text-anchor="middle">Gadchiroli</text>
+  
+  <text x="125" y="225" fill="#000" font-size="8" text-anchor="middle">Chandrapur</text>
+  <text x="175" y="225" fill="#000" font-size="8" text-anchor="middle">Jalna</text>
+  <text x="225" y="225" fill="#000" font-size="8" text-anchor="middle">Parbhani</text>
+  <text x="275" y="225" fill="#000" font-size="8" text-anchor="middle">Latur</text>
+  <text x="325" y="225" fill="#000" font-size="8" text-anchor="middle">Osmanabad</text>
+  
+  <text x="125" y="275" fill="#000" font-size="8" text-anchor="middle">Solapur</text>
+  <text x="175" y="275" fill="#000" font-size="8" text-anchor="middle">Pune</text>
+  <text x="225" y="275" fill="#000" font-size="8" text-anchor="middle">Ahmednagar</text>
+  <text x="275" y="275" fill="#000" font-size="8" text-anchor="middle">Nashik</text>
+  <text x="325" y="275" fill="#000" font-size="8" text-anchor="middle">Thane</text>
+  
+  <!-- Legend -->
+  <rect x="100" y="320" width="20" height="10" fill="#0D47A1" />
+  <text x="125" y="328" font-size="8" fill="#000">Highest Population (4)</text>
+  
+  <rect x="100" y="335" width="20" height="10" fill="#1E88C7" />
+  <text x="125" y="343" font-size="8" fill="#000">High Population (3)</text>
+  
+  <rect x="100" y="350" width="20" height="10" fill="#4AA9D4" />
+  <text x="125" y="358" font-size="8" fill="#000">Moderate Population (3)</text>
+  
+  <rect x="100" y="365" width="20" height="10" fill="#83C5E3" />
+  <text x="125" y="373" font-size="8" fill="#000">Low Population (3)</text>
+  
+  <rect x="100" y="380" width="20" height="10" fill="#B3E0F2" />
+  <text x="125" y="388" font-size="8" fill="#000">Lowest Population (4)</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <!-- Chart background -->
+  <rect width="400" height="200" fill="white" />
+  
+  <!-- Chart title -->
+  <text x="220" y="15" font-size="12" fill="#333" text-anchor="start">Sector-wise Distribution</text>
+  
+  <!-- Bar chart data -->
+  <g>
+    <!-- Agriculture -->
+    <rect x="75" y="40" width="50" height="140" fill="#3F51B5" />
+    <text x="100" y="190" font-size="10" fill="#333" text-anchor="middle">Agriculture</text>
+    
+    <!-- Manufacturing -->
+    <rect x="175" y="80" width="50" height="100" fill="#2196F3" />
+    <text x="200" y="190" font-size="10" fill="#333" text-anchor="middle">Manufacturing</text>
+    
+    <!-- Services -->
+    <rect x="275" y="60" width="50" height="120" fill="#03A9F4" />
+    <text x="300" y="190" font-size="10" fill="#333" text-anchor="middle">Services</text>
+  </g>
+  
+  <!-- Y-axis labels -->
+  <g fill="#333" font-size="8" text-anchor="end">
+    <text x="45" y="180">0%</text>
+    <text x="45" y="140">20%</text>
+    <text x="45" y="100">40%</text>
+    <text x="45" y="60">60%</text>
+    <text x="45" y="20">80%</text>
+  </g>
+  
+  <!-- Grid lines -->
+  <g stroke="#ccc" stroke-width="0.5">
+    <line x1="50" y1="20" x2="50" y2="180" />
+    <line x1="50" y1="180" x2="350" y2="180" />
+    <line x1="50" y1="140" x2="350" y2="140" />
+    <line x1="50" y1="100" x2="350" y2="100" />
+    <line x1="50" y1="60" x2="350" y2="60" />
+    <line x1="50" y1="20" x2="350" y2="20" />
+  </g>
+  
+  <!-- View More Link -->
+  <text x="370" y="195" font-size="8" fill="#E53935" text-anchor="end">View More...</text>
+</svg>
